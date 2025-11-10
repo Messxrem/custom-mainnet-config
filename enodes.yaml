@@ -1,6 +1,9 @@
-# Bootstrap nodes for Custom Mainnet (Chain ID: 33333333)
-# ETH-Docker will use these for initial peer discovery
+# Bootstrap enodes for ETH-Docker Geth client
+# Format: simple list of enode URLs
+# For single-node deployment, leave empty
 
-# No bootstrap nodes required for single-node setup
-# ETH-Docker will generate local bootnodes automatically
-bootstrap_nodes: []
+# Example (commented out):
+# - enode://1234567890abcdef@192.168.1.100:30303
+# - enode://abcdef1234567890@192.168.1.101:30303
+
+# Empty for single-node setup
