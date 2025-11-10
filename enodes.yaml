@@ -1,0 +1,6 @@
+# Bootstrap nodes for Custom Mainnet (Chain ID: 33333333)
+# ETH-Docker will use these for initial peer discovery
+
+# No bootstrap nodes required for single-node setup
+# ETH-Docker will generate local bootnodes automatically
+bootstrap_nodes: []
